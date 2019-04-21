@@ -1,0 +1,9 @@
+@import 'assets/header';
+@import 'assets/main';
+@import 'assets/footer';
+
+body {
+    display: grid;
+    transition: .5s all;
+    background-color:red;
+}
