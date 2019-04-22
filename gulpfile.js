@@ -9,12 +9,6 @@ const imagemin = require('gulp-imagemin');
 const cache = require('gulp-cache');
 const babel = require('gulp-babel');
 
-// gulp.task('name-task', function() {
-//     gulp.src(source-files)
-//     .pipe(gulpPlagin())
-//     .pipe(gulp.dest('destination-directory'));
-// })
-
 gulp.task('browserSync', function() {
     browserSync({
         server: {
