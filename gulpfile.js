@@ -63,7 +63,7 @@ gulp.task('imageMin', function() {
         .pipe(gulp.dest('src/img'))
 });
 
-gulp.task('sss', function() {
+gulp.task('babel', function() {
 	gulp.src('src/js/main.min.js')
 		.pipe(babel({
             presets: ['@babel/env']
